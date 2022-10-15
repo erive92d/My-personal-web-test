@@ -6,6 +6,12 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 70px;
 }
+.cart {
+    text-align: right;
+    margin: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .headline {
     text-align: center;
@@ -18,16 +24,31 @@ h1 {
 
 .menu {
     background-color:antiquewhite;
-    text-align: left;
+    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     
-    width: 50%;
+    width: 100%;
 }
 
 .cookies, .cakes, .breads {
     display: block;
     margin: 40px;
+    color: white;
+    
+}
+
+.cookies {
+    padding-left: 20px;
+    background-color:brown;
+}
+.breads {
+    background-color:darkcyan;
+    padding-left: 20px;
+}
+.cakes {
+    background-color:darkolivegreen;
+    padding-left: 20px;
 }
 
 select {
