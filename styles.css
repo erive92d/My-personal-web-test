@@ -24,17 +24,25 @@ h1 {
 
 .menu {
     background-color:antiquewhite;
-    text-align: center;
+    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
-    
+    padding: 30px;
     width: 100%;
+    display: block;
+    
+   
+    
 }
 
 .cookies, .cakes, .breads {
-    display: block;
-    margin: 40px;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
     color: white;
+    width: 20%;
+    height: 50%;
+    border-radius: 1cm;
     
 }
 
@@ -54,5 +62,19 @@ h1 {
 select {
     font-size: 30px;
     margin: 40px;
+    border-radius: 1cm;
+    text-align: center;
+    width: 50%;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1in;
+    display: inline-block;
+}
+
+input[type=text] {
+    width: 50%;
+    text-align: center;
+}
