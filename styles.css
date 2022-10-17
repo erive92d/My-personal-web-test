@@ -36,13 +36,15 @@ h1 {
 }
 
 .cookies, .cakes, .breads {
-    display: inline-block;
-    margin: 50px;
-    padding: 50px;
+    display: block;
+    margin: auto;
+    padding: 10px;
     color: white;
-    width: 20%;
-    height: 50%;
+    width:25%;
+    height: 250px;;
     border-radius: 1cm;
+    text-align: center;
+  
     
 }
 
@@ -61,20 +63,23 @@ h1 {
 
 select {
     font-size: 30px;
-    margin: 40px;
+    margin: auto;
     border-radius: 1cm;
-    text-align: center;
-    width: 50%;
+    width: 30%;
+    display: block;
 }
 
 img {
-    width: 150px;
+    width: 200px;
+    margin: auto;
     height: 150px;
     border-radius: 1in;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 
 input[type=text] {
     width: 50%;
     text-align: center;
 }
+
